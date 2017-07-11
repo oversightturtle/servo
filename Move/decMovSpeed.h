@@ -10,12 +10,14 @@
 
 #include "MovSpeed.h"
 
+// normal is the deflt movespeed if none is given
+MovSpeed NORMAL(15, 250, 2500);
+
+MovSpeed SXSPD(2, 750, 2000);
+
 MovSpeed DEFALT(20, 100 ,500 );
 
 MovSpeed FASTSMOOTH(45, 120, 2000);
-
-// normal is the deflt movespeed if none is given
-MovSpeed NORMAL(15, 250, 2500);
 
 MovSpeed SLOW(10, 350, 1000);
 
@@ -28,6 +30,8 @@ MovSpeed FAST(10, 100, 2500);
 MovSpeed NDFAST(10, 100, 0);
 
 MovSpeed SAFEM(5, 100, 500);
+
+MovSpeed DUO(2, 2000, 1000);
 
 MovSpeed INSTANT(1, 100, 1000);
 

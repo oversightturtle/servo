@@ -15,6 +15,7 @@
 #include "Operations/AltPrimary.h"
 #include "Operations/Acts.h"
 
+// update decSRVO
 
 int order;
 int pin;
@@ -44,7 +45,8 @@ void coff(){
 }
 
 void setup()
-{
+{	init_pospoint(); // sync and declares position pins
+
 
 // *** JOINT DECLRATIONS
 
@@ -107,9 +109,10 @@ void loop()
 			Tlc.update();
 		}
         else if (order == 55){
+        	delay(1000);
             for (int iii = 0; iii != 10; iii++){
                 Serial.print('0');
-                delay(50)
+                delay(50);
             }
         }
 
@@ -126,12 +129,6 @@ void loop()
 			con();
 		}
 	}
-
-
-
-
-
-
 } // void loop
 
 

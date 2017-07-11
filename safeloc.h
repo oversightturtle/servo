@@ -27,6 +27,21 @@ void safeloc()
 	config(s2_clock);
 	config(s2_place);
 	config(s2_cclock);
+
+	config(s2_close);
+	config(s2_away);
+	// s1 s2
+	config(sx_0);
+	config(sx_1);
+	config(sx_2);
+	config(sx_3);
+
+	config(s3_upplace);
+	config(s3_fold1);
+	config(s3_fold2);
+
+    config(s4_far);
+    config(s4_close);
 }
 
 
