@@ -35,6 +35,7 @@ void safeloc()
 	config(sx_1);
 	config(sx_2);
 	config(sx_3);
+	config(sx_4);
 
 	config(s3_upplace);
 	config(s3_fold1);

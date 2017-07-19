@@ -13,6 +13,8 @@
 // normal is the deflt movespeed if none is given
 MovSpeed NORMAL(15, 250, 2500);
 
+MovSpeed SMOOTH(15, 80, 1000);
+
 MovSpeed SXSPD(2, 750, 2000);
 
 MovSpeed DEFALT(20, 100 ,500 );

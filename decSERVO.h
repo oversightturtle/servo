@@ -37,10 +37,10 @@
 
 BipolarServo s2_clock	(STAGE2VALUE + 1, 102, /*375*/ 320, 500);
 BipolarServo s2_place	(STAGE2VALUE + 2, 102, 375, 375);
-BipolarServo s2_cclock	(STAGE2VALUE + 3, 510, /*239*/ 230, 102);
+BipolarServo s2_cclock	(STAGE2VALUE + 3, 482, /*239*/ 230, 102);
 
 #define LSERV 16
-BipolarServo s2_close		(LSERV, 120, 490, 490); // 500
+BipolarServo s2_close		(LSERV, 130, 475, 475); // 500
 BipolarServo s2_away		(LSERV + 1, 478, 130, 130);
 
 #define HSERV 5
@@ -48,6 +48,7 @@ BipolarServo sx_0       (HSERV, 200, 200, 200);
 BipolarServo sx_1       (HSERV + 1, 380, 380, 380);
 BipolarServo sx_2       (HSERV + 2, 280, 280, 280);
 BipolarServo sx_3       (HSERV + 3, 400, 400, 400);
+BipolarServo sx_4		(14, 280, 280, 280);
 
 #define STAGE3VALUE 9
 BipolarServo s3_upplace		(STAGE3VALUE, 108, 330, 330);
@@ -55,8 +56,8 @@ BipolarServo s3_fold1		(STAGE3VALUE + 1, 140, 250, 450);
 BipolarServo s3_fold2		(STAGE3VALUE + 2, 480, 340, 200);
 
 #define STAGE4VALUE 12
-BipolarServo s4_close   (STAGE4VALUE + 1, 108, 460, 460);
-BipolarServo s4_far     (STAGE4VALUE, 505,  108, 108);
+BipolarServo s4_close   (STAGE4VALUE + 1, 102, 460, 460);
+BipolarServo s4_far     (STAGE4VALUE, 512,  108, 108);
 
 // 19 close PRE 460 open 108
 //18 close PRE 108 open 505 
